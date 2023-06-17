@@ -1,0 +1,221 @@
+$date
+	Mon Nov 28 21:48:50 2022
+$end
+
+$version
+	Synopsys VCS version N-2017.12-1
+$end
+
+$timescale
+	100ps
+$end
+
+$comment Csum: 1 663513df0cbc6e5d $end
+
+
+$scope module TestBench $end
+$var reg 1 ! Astim $end
+$var reg 1 " Bstim $end
+$var reg 1 # Cstim $end
+$var reg 1 $ Dstim $end
+$var wire 1 % Xwatch $end
+$var wire 1 & Ywatch $end
+$var wire 1 ' Zwatch $end
+
+$scope module Topper01 $end
+$var wire 1 % X $end
+$var wire 1 & Y $end
+$var wire 1 ' Z $end
+$var wire 1 ( ScanOut $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # C $end
+$var wire 1 $ D $end
+$var wire 1 ) ScanMode $end
+$var wire 1 * ScanIn $end
+$var wire 1 + ScanClr $end
+$var wire 1 , ScanClk $end
+$var wire 1 - ab $end
+$var wire 1 . bc $end
+$var wire 1 / q $end
+$var wire 1 0 qn $end
+$var wire 1 1 toInputCombo_A $end
+$var wire 1 2 toInputCombo_B $end
+$var wire 1 3 toInputCombo_C $end
+$var wire 1 4 toInputCombo_D $end
+$var wire 1 5 toOutputCombo_X $end
+$var wire 1 6 toOutputCombo_Y $end
+$var wire 1 7 toOutputCombo_Z $end
+
+$scope module Ain_FF $end
+$var reg 1 8 Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 9 D $end
+$upscope $end
+
+
+$scope module Bin_FF $end
+$var reg 1 : Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 ; D $end
+$upscope $end
+
+
+$scope module Cin_FF $end
+$var reg 1 < Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 = D $end
+$upscope $end
+
+
+$scope module Din_FF $end
+$var reg 1 > Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 ? D $end
+$upscope $end
+
+
+$scope module InputCombo $end
+$var wire 1 - X $end
+$var wire 1 . Y $end
+$var wire 1 1 A $end
+$var wire 1 2 B $end
+$var wire 1 3 C $end
+$upscope $end
+
+
+$scope module SRLatch $end
+$var wire 1 / Q $end
+$var wire 1 0 Qn $end
+$var wire 1 . S $end
+$var wire 1 4 R $end
+$var wire 1 @ q $end
+$var wire 1 A qn $end
+$upscope $end
+
+
+$scope module OutputCombo $end
+$var wire 1 5 X $end
+$var wire 1 6 Y $end
+$var wire 1 - A $end
+$var wire 1 / B $end
+$var wire 1 0 C $end
+$var wire 1 B x $end
+$upscope $end
+
+
+$scope module Xout_FF $end
+$var reg 1 C Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 5 D $end
+$upscope $end
+
+
+$scope module Yout_FF $end
+$var reg 1 D Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 6 D $end
+$upscope $end
+
+
+$scope module Zout_FF $end
+$var reg 1 E Q $end
+$var wire 1 , clk $end
+$var wire 1 + clr $end
+$var wire 1 7 D $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+x!
+x"
+x#
+x$
+x/
+x@
+z*
+z)
+z(
+x-
+x%
+x.
+x&
+x'
+x1
+x2
+x3
+x4
+x8
+x:
+x<
+x>
+xC
+xD
+xE
+x0
+xA
+x7
+xB
+x5
+z,
+z+
+x6
+x9
+x;
+x=
+x?
+$end
+#10
+0!
+09
+#20
+0"
+0;
+#30
+0#
+0=
+#40
+0$
+0?
+#540
+1!
+19
+#1040
+1"
+1;
+#1540
+1#
+1=
+#2040
+1$
+1?
+#2540
+0"
+0;
+#3040
+0$
+0?
+#3540
+1$
+1?
+#4040
+0!
+09
+#4540
+0#
+0=
+#5040
+0$
+0?
